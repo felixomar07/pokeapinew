@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Teams</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-yellow text-light">
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6 mb-2">
+        <input type="text" id="name" class="form-control form-control-lg" placeholder="Ingrese el nombre de un pokemon">
+      </div>
+      <div class="col-md-6 d-flex justify-content-end">
+        <button id="add" class="btn btn-primary btn-lg mr-2">Agregar</button>
+        <button id="show-history" class="btn btn-secondary btn-lg mr-2" >Historial de equipos</button>
+        <button id="reset" class="btn btn-danger btn-lg ml-2" disabled>Empezar de nuevo</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div id="poke-container"></div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-column">
+        <h3>Contactos</h3>
+        <p>Correo: ues@gmail.com</p>
+        <p>Numero: +52 66123456789</p>
+        <p>Direccion: Av 10</p>
+      </div>
+      <div class="footer-column">
+        <h3>Info</h3>
+        <p>Subscribete.</p>
+        <form class="newsletter-form" action="#" method="post">
+          <input type="email" name="email" placeholder="Ingresa tu correo">
+        </form>
+      </div>
+      <div class="footer-column">
+        <h3>Enlaces</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <p>&copy; 2024 Pokemon Teams. Derechos reservados.</p>
+      <p>Privacidad politica | Temas de serviccios</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+body {
+  background-color: #ebf525; 
+
+
+
+}
+
+.container {
+  margin-top: 20px;
+  
+}
+
+.btn {
+  border-radius: 20px; 
+}
+
+
+.form-control-lg {
+  border-radius: 20px; 
+}
+
+
+.btn-primary,
+.btn-outline-light,
+.btn-danger {
+  font-weight: bold;
+}
+.pokemon-container {
+  background-color: #7e9401; 
+  border: 1px solid #ced4da; 
+  border-radius: 10px; 
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px; 
+  margin-right: 10px; 
+  animation: fadeIn 0.5s ease-in-out; 
+}
+
+
+.pokemon-container h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.pokemon-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  
+}
+
+
+.pokemon-container h2 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+
+.pokemon-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.pokemon-container ul li {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #007bff; 
+  color: #ffffff; 
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+    transform: translateY(-10px); 
+  }
+  to {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+.historial-container {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+
+.equipo-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+.content {
+  height: calc(100% - 250px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: linear-gradient(to right, #000035, #024295);
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-top: 60px; 
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.footer-column {
+  margin-right: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  font-weight: 600;
+  padding: 3px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  outline: none;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.newsletter-form button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+  color: #000000;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #0d515a;
+}
+
+.bottom-bar {
+  background-color: #d9d9d9;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.bottom-bar p {
+  margin: 5px 0;
+}
+
+.social-icons .icon {
+  font-size: 24px;
+  color: rgb(167, 0, 70);
+  margin: 0 8px;
+  transition: all 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  transform: scale(1.2);
+}
